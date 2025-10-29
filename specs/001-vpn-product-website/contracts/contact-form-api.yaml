@@ -1,0 +1,187 @@
+openapi: 3.0.3
+info:
+  title: VPN 产品官网联系表单 API
+  description: 处理用户咨询请求提交的 API 端点
+  version: 1.0.0
+  contact:
+    name: Cyborg VPN Team
+    email: dev@cyborg-vpn.com
+
+servers:
+  - url: /api
+    description: API Routes 相对路径
+
+paths:
+  /contact:
+    post:
+      summary: 提交联系表单
+      description: 接收并处理用户咨询请求,发送邮件通知团队
+      operationId: submitContactForm
+      tags:
+        - Contact
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ContactFormRequest'
+            examples:
+              chinese:
+                summary: 中文表单示例
+                value:
+                  name: "张三"
+                  email: "zhangsan@example.com"
+                  subject: "产品咨询"
+                  message: "我想了解企业版服务的详细信息"
+                  locale: "zh"
+              english:
+                summary: 英文表单示例
+                value:
+                  name: "John Doe"
+                  email: "john@example.com"
+                  subject: "Product Inquiry"
+                  message: "I would like to know more about enterprise plans"
+                  locale: "en"
+              japanese:
+                summary: 日文表单示例
+                value:
+                  name: "田中太郎"
+                  email: "tanaka@example.jp"
+                  subject: "製品についてのお問い合わせ"
+                  message: "エンタープライズプランについて詳しく知りたいです"
+                  locale: "ja"
+      responses:
+        '200':
+          description: 表单提交成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ContactFormSuccessResponse'
+              example:
+                success: true
+                message: "感谢您的咨询,我们会尽快回复您!"
+        '400':
+          description: 请求验证失败
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ContactFormErrorResponse'
+              example:
+                success: false
+                message: "表单验证失败,请检查输入"
+                errors:
+                  email: ["请输入有效的邮箱地址"]
+                  message: ["消息至少10个字符"]
+        '500':
+          description: 服务器内部错误
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ContactFormErrorResponse'
+              example:
+                success: false
+                message: "提交失败,请稍后重试"
+        '429':
+          description: 请求过于频繁(速率限制)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ContactFormErrorResponse'
+              example:
+                success: false
+                message: "请求过于频繁,请稍后再试"
+
+components:
+  schemas:
+    ContactFormRequest:
+      type: object
+      required:
+        - name
+        - email
+        - subject
+        - message
+        - locale
+      properties:
+        name:
+          type: string
+          minLength: 2
+          maxLength: 50
+          description: 用户姓名
+          example: "张三"
+        email:
+          type: string
+          format: email
+          maxLength: 100
+          description: 用户邮箱
+          example: "zhangsan@example.com"
+        subject:
+          type: string
+          minLength: 5
+          maxLength: 100
+          description: 咨询主题
+          example: "产品咨询"
+        message:
+          type: string
+          minLength: 10
+          maxLength: 1000
+          description: 咨询内容
+          example: "我想了解企业版服务的详细信息"
+        locale:
+          type: string
+          enum:
+            - zh
+            - en
+            - ja
+          description: 表单提交时的语言环境
+          example: "zh"
+
+    ContactFormSuccessResponse:
+      type: object
+      required:
+        - success
+        - message
+      properties:
+        success:
+          type: boolean
+          description: 操作是否成功
+          example: true
+        message:
+          type: string
+          description: 成功提示消息
+          example: "感谢您的咨询,我们会尽快回复您!"
+
+    ContactFormErrorResponse:
+      type: object
+      required:
+        - success
+        - message
+      properties:
+        success:
+          type: boolean
+          description: 操作是否成功
+          example: false
+        message:
+          type: string
+          description: 错误提示消息
+          example: "表单验证失败,请检查输入"
+        errors:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: string
+          description: 字段级错误详情(可选)
+          example:
+            email: ["请输入有效的邮箱地址"]
+            message: ["消息至少10个字符"]
+
+  securitySchemes:
+    # 暂无认证要求(公开表单)
+    # 未来可添加 reCAPTCHA 或 CSRF Token
+    {}
+
+security: []
+
+tags:
+  - name: Contact
+    description: 联系表单相关操作

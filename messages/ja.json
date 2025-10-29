@@ -1,0 +1,224 @@
+{
+  "common": {
+    "siteTitle": "Cyborg VPN",
+    "siteDescription": "安全で高速、プライベートな VPN サービス"
+  },
+  "nav": {
+    "home": "ホーム",
+    "features": "機能",
+    "pricing": "料金",
+    "about": "について",
+    "faq": "よくある質問",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "安全で高速なVPNサービス",
+    "subtitle": "オンラインプライバシーを保護し、地理的制限を突破し、無制限のインターネットの自由をお楽しみください",
+    "cta": {
+      "primary": "今すぐ始める",
+      "secondary": "詳細を見る"
+    }
+  },
+  "features": {
+    "title": "主な機能",
+    "subtitle": "オンラインセキュリティの包括的な保護",
+    "items": {
+      "security": {
+        "title": "軍事グレードの暗号化",
+        "description": "AES-256暗号化技術でデータを保護"
+      },
+      "speed": {
+        "title": "超高速",
+        "description": "グローバルサーバーネットワークで最適な接続速度"
+      },
+      "privacy": {
+        "title": "ログゼロポリシー",
+        "description": "オンラインアクティビティは一切記録しません"
+      },
+      "global": {
+        "title": "グローバルカバレッジ",
+        "description": "50以上の国、100以上のサーバー、どこでも接続"
+      },
+      "devices": {
+        "title": "マルチデバイス対応",
+        "description": "1つのアカウントで全ての主要プラットフォームとデバイスに対応"
+      },
+      "support": {
+        "title": "24/7カスタマーサポート",
+        "description": "プロフェッショナルチームがいつでもサポート"
+      }
+    }
+  },
+  "about": {
+    "title": "私たちについて",
+    "subtitle": "デジタルプライバシー保護に専念",
+    "description": "私たちはネットワークセキュリティとプライバシー保護に特化したチームです。2020年以来、世界中のユーザーに安全で高速かつ信頼性の高いVPNサービスを提供することに取り組んでいます。誰もが自由で安全なインターネットを楽しむ権利があると信じています。",
+    "mission": {
+      "title": "私たちの使命",
+      "description": "誰もが安全かつ自由にインターネットにアクセスできるようにすること"
+    },
+    "vision": {
+      "title": "私たちのビジョン",
+      "description": "世界で最も信頼されるVPNサービスプロバイダーになること"
+    }
+  },
+  "testimonials": {
+    "title": "ユーザーレビュー",
+    "subtitle": "実際のユーザーの声をお聞きください",
+    "items": {
+      "user1": {
+        "name": "田中太郎",
+        "role": "ソフトウェアエンジニア",
+        "content": "今まで使った中で最高のVPNサービスです。速くて安定しています！",
+        "rating": 5
+      },
+      "user2": {
+        "name": "佐藤花子",
+        "role": "デザイナー",
+        "content": "インターフェースがすっきりしていて、使いやすく、価格も手頃です。",
+        "rating": 5
+      },
+      "user3": {
+        "name": "鈴木一郎",
+        "role": "プロダクトマネージャー",
+        "content": "カスタマーサポートの対応が早く、専門的です。強くお勧めします！",
+        "rating": 5
+      },
+      "user4": {
+        "name": "山田美咲",
+        "role": "起業家",
+        "content": "安全で信頼性が高く、チームコラボレーションに必須のツールです。",
+        "rating": 4
+      }
+    }
+  },
+  "pricing": {
+    "title": "料金プラン",
+    "subtitle": "あなたに合ったプランをお選びください",
+    "plans": {
+      "monthly": {
+        "name": "月額プラン",
+        "price": "¥1,200",
+        "period": "/月",
+        "features": {
+          "feature1": "無制限の帯域幅",
+          "feature2": "グローバルサーバー",
+          "feature3": "7日間返金保証",
+          "feature4": "24/7カスタマーサポート"
+        },
+        "cta": "今すぐ購入"
+      },
+      "yearly": {
+        "name": "年額プラン",
+        "price": "¥7,200",
+        "period": "/年",
+        "popular": true,
+        "save": "50%お得",
+        "features": {
+          "feature1": "無制限の帯域幅",
+          "feature2": "グローバルサーバー",
+          "feature3": "30日間返金保証",
+          "feature4": "24/7カスタマーサポート",
+          "feature5": "優先サポート"
+        },
+        "cta": "今すぐ購入"
+      },
+      "enterprise": {
+        "name": "エンタープライズプラン",
+        "price": "カスタム",
+        "period": "",
+        "features": {
+          "feature1": "無制限デバイス",
+          "feature2": "専用サーバー",
+          "feature3": "カスタムソリューション",
+          "feature4": "専任アカウントマネージャー"
+        },
+        "cta": "お問い合わせ"
+      }
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "あなたの疑問にお答えします",
+    "items": {
+      "q1": {
+        "question": "VPNとは何ですか？",
+        "answer": "VPN（仮想プライベートネットワーク）は、オンラインプライバシーとセキュリティを保護する暗号化されたネットワーク接続です。"
+      },
+      "q2": {
+        "question": "どのように始めればいいですか？",
+        "answer": "サインアップ後、アプリケーションをダウンロードし、ログインすればすぐに利用できます。"
+      },
+      "q3": {
+        "question": "どのデバイスがサポートされていますか？",
+        "answer": "Windows、Mac、iOS、Androidなど主要なプラットフォームをサポートしています。"
+      },
+      "q4": {
+        "question": "同時に何台のデバイスを接続できますか？",
+        "answer": "プランに応じて、3〜10台のデバイスを同時に接続できます。"
+      },
+      "q5": {
+        "question": "返金保証はありますか？",
+        "answer": "はい、選択したプランに応じて7〜30日間の返金保証を提供しています。"
+      },
+      "q6": {
+        "question": "サポートに連絡するにはどうすればいいですか？",
+        "answer": "メール、ライブチャット、またはチケットシステムから24/7サポートチームに連絡できます。"
+      }
+    }
+  },
+  "footer": {
+    "description": "世界中のユーザーに安全で高速、プライベートなVPNサービスを提供",
+    "product": {
+      "title": "製品",
+      "features": "機能",
+      "pricing": "料金",
+      "download": "アプリをダウンロード"
+    },
+    "company": {
+      "title": "会社",
+      "about": "私たちについて",
+      "blog": "ブログ",
+      "careers": "採用"
+    },
+    "support": {
+      "title": "サポート",
+      "help": "ヘルプセンター",
+      "contact": "お問い合わせ",
+      "faq": "よくある質問"
+    },
+    "legal": {
+      "title": "法的情報",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "cookies": "クッキーポリシー"
+    },
+    "copyright": "© 2024 Cyborg VPN. All rights reserved."
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご質問やご提案がございましたら、お気軽にご連絡ください",
+    "form": {
+      "name": "お名前",
+      "namePlaceholder": "お名前を入力してください",
+      "email": "メールアドレス",
+      "emailPlaceholder": "your@email.com",
+      "subject": "件名",
+      "subjectPlaceholder": "お問い合わせ内容",
+      "message": "メッセージ",
+      "messagePlaceholder": "メッセージを入力してください...",
+      "submit": "送信",
+      "sending": "送信中..."
+    },
+    "success": {
+      "title": "送信完了！",
+      "message": "お問い合わせいただきありがとうございます。折り返しご連絡いたします。",
+      "close": "OK"
+    },
+    "error": {
+      "title": "エラー",
+      "message": "申し訳ございません。送信中にエラーが発生しました。後でもう一度お試しください。",
+      "close": "閉じる"
+    }
+  }
+}

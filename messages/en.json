@@ -1,0 +1,224 @@
+{
+  "common": {
+    "siteTitle": "Cyborg VPN",
+    "siteDescription": "Secure, Fast, and Private VPN Service"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Secure and Fast VPN Service",
+    "subtitle": "Protect your online privacy, bypass geo-restrictions, and enjoy unlimited internet freedom",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Learn More"
+    }
+  },
+  "features": {
+    "title": "Core Features",
+    "subtitle": "Comprehensive protection for your online security",
+    "items": {
+      "security": {
+        "title": "Military-Grade Encryption",
+        "description": "AES-256 encryption technology to protect your data"
+      },
+      "speed": {
+        "title": "Lightning Fast",
+        "description": "Global server network for optimal connection speed"
+      },
+      "privacy": {
+        "title": "Zero-Log Policy",
+        "description": "We don't record any of your online activities"
+      },
+      "global": {
+        "title": "Global Coverage",
+        "description": "50+ countries, 100+ servers, connect anywhere"
+      },
+      "devices": {
+        "title": "Multi-Device Support",
+        "description": "One account for all major platforms and devices"
+      },
+      "support": {
+        "title": "24/7 Customer Support",
+        "description": "Professional team ready to help you anytime"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Dedicated to protecting your digital privacy",
+    "description": "We are a team focused on network security and privacy protection. Since 2020, we have been committed to providing secure, fast, and reliable VPN services to users worldwide. We believe everyone has the right to enjoy a free and secure internet.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To enable everyone to access the internet safely and freely"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the most trusted VPN service provider globally"
+    }
+  },
+  "testimonials": {
+    "title": "User Reviews",
+    "subtitle": "Hear from our real users",
+    "items": {
+      "user1": {
+        "name": "John Smith",
+        "role": "Software Engineer",
+        "content": "This is the best VPN service I've ever used. Fast and stable!",
+        "rating": 5
+      },
+      "user2": {
+        "name": "Sarah Johnson",
+        "role": "Designer",
+        "content": "Clean interface, easy to use, and reasonably priced.",
+        "rating": 5
+      },
+      "user3": {
+        "name": "Michael Chen",
+        "role": "Product Manager",
+        "content": "Customer support is responsive and professional. Highly recommended!",
+        "rating": 5
+      },
+      "user4": {
+        "name": "Emily Davis",
+        "role": "Entrepreneur",
+        "content": "Secure and reliable, essential tool for team collaboration.",
+        "rating": 4
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Choose the plan that suits you",
+    "plans": {
+      "monthly": {
+        "name": "Monthly Plan",
+        "price": "$9.99",
+        "period": "/month",
+        "features": {
+          "feature1": "Unlimited bandwidth",
+          "feature2": "Global servers",
+          "feature3": "7-day money-back guarantee",
+          "feature4": "24/7 customer support"
+        },
+        "cta": "Buy Now"
+      },
+      "yearly": {
+        "name": "Annual Plan",
+        "price": "$59.99",
+        "period": "/year",
+        "popular": true,
+        "save": "Save 50%",
+        "features": {
+          "feature1": "Unlimited bandwidth",
+          "feature2": "Global servers",
+          "feature3": "30-day money-back guarantee",
+          "feature4": "24/7 customer support",
+          "feature5": "Priority support"
+        },
+        "cta": "Buy Now"
+      },
+      "enterprise": {
+        "name": "Enterprise Plan",
+        "price": "Custom",
+        "period": "",
+        "features": {
+          "feature1": "Unlimited devices",
+          "feature2": "Dedicated servers",
+          "feature3": "Custom solutions",
+          "feature4": "Dedicated account manager"
+        },
+        "cta": "Contact Us"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to your questions",
+    "items": {
+      "q1": {
+        "question": "What is a VPN?",
+        "answer": "A VPN (Virtual Private Network) is an encrypted network connection that protects your online privacy and security."
+      },
+      "q2": {
+        "question": "How do I get started?",
+        "answer": "After signing up, download our application, log in, and you're ready to go."
+      },
+      "q3": {
+        "question": "Which devices are supported?",
+        "answer": "We support major platforms including Windows, Mac, iOS, and Android."
+      },
+      "q4": {
+        "question": "How many devices can I connect simultaneously?",
+        "answer": "Depending on your plan, you can connect 3-10 devices simultaneously."
+      },
+      "q5": {
+        "question": "Is there a money-back guarantee?",
+        "answer": "Yes, we offer a 7-30 day money-back guarantee depending on your chosen plan."
+      },
+      "q6": {
+        "question": "How can I contact support?",
+        "answer": "You can reach our 24/7 support team via email, live chat, or ticket system."
+      }
+    }
+  },
+  "footer": {
+    "description": "Providing secure, fast, and private VPN services to users worldwide",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "download": "Download App"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "blog": "Blog",
+      "careers": "Careers"
+    },
+    "support": {
+      "title": "Support",
+      "help": "Help Center",
+      "contact": "Contact Us",
+      "faq": "FAQ"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© 2024 Cyborg VPN. All rights reserved."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have any questions or suggestions? We're here to help",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": {
+      "title": "Message Sent!",
+      "message": "Thank you for contacting us. We will get back to you soon.",
+      "close": "OK"
+    },
+    "error": {
+      "title": "Error",
+      "message": "Sorry, there was an error sending your message. Please try again later.",
+      "close": "Close"
+    }
+  }
+}
