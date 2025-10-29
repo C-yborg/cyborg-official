@@ -1,0 +1,224 @@
+{
+  "common": {
+    "siteTitle": "Cyborg VPN",
+    "siteDescription": "安全、快速、私密的 VPN 服务"
+  },
+  "nav": {
+    "home": "首页",
+    "features": "特性",
+    "pricing": "定价",
+    "about": "关于",
+    "faq": "常见问题",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "安全快速的VPN服务",
+    "subtitle": "保护您的在线隐私，突破地理限制，享受无限制的互联网自由",
+    "cta": {
+      "primary": "立即开始",
+      "secondary": "了解更多"
+    }
+  },
+  "features": {
+    "title": "核心功能",
+    "subtitle": "全方位保护您的在线安全",
+    "items": {
+      "security": {
+        "title": "军事级加密",
+        "description": "AES-256加密技术，保护您的数据安全"
+      },
+      "speed": {
+        "title": "超快速度",
+        "description": "全球服务器网络，提供最佳连接速度"
+      },
+      "privacy": {
+        "title": "零日志政策",
+        "description": "我们不记录您的任何在线活动"
+      },
+      "global": {
+        "title": "全球覆盖",
+        "description": "50+国家，100+服务器，随时随地连接"
+      },
+      "devices": {
+        "title": "多设备支持",
+        "description": "一个账号，支持所有主流平台和设备"
+      },
+      "support": {
+        "title": "24/7客户支持",
+        "description": "专业团队随时为您解答疑问"
+      }
+    }
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "致力于保护您的数字隐私",
+    "description": "我们是一支专注于网络安全和隐私保护的团队。自2020年以来，我们一直致力于为全球用户提供安全、快速、可靠的VPN服务。我们相信每个人都有权利享受自由和安全的互联网。",
+    "mission": {
+      "title": "我们的使命",
+      "description": "让每个人都能安全、自由地访问互联网"
+    },
+    "vision": {
+      "title": "我们的愿景",
+      "description": "成为全球最值得信赖的VPN服务提供商"
+    }
+  },
+  "testimonials": {
+    "title": "用户评价",
+    "subtitle": "听听我们用户的真实反馈",
+    "items": {
+      "user1": {
+        "name": "张三",
+        "role": "软件工程师",
+        "content": "这是我用过最好的VPN服务，速度快，稳定性好！",
+        "rating": 5
+      },
+      "user2": {
+        "name": "李四",
+        "role": "设计师",
+        "content": "界面简洁，操作方便，价格也很合理。",
+        "rating": 5
+      },
+      "user3": {
+        "name": "王五",
+        "role": "产品经理",
+        "content": "客服响应及时，解决问题很专业。强烈推荐！",
+        "rating": 5
+      },
+      "user4": {
+        "name": "赵六",
+        "role": "创业者",
+        "content": "安全可靠，团队协作必备工具。",
+        "rating": 4
+      }
+    }
+  },
+  "pricing": {
+    "title": "定价方案",
+    "subtitle": "选择适合您的套餐",
+    "plans": {
+      "monthly": {
+        "name": "月付套餐",
+        "price": "¥29",
+        "period": "/月",
+        "features": {
+          "feature1": "无限流量",
+          "feature2": "全球服务器",
+          "feature3": "7天退款保证",
+          "feature4": "24/7客户支持"
+        },
+        "cta": "立即购买"
+      },
+      "yearly": {
+        "name": "年付套餐",
+        "price": "¥199",
+        "period": "/年",
+        "popular": true,
+        "save": "节省32%",
+        "features": {
+          "feature1": "无限流量",
+          "feature2": "全球服务器",
+          "feature3": "30天退款保证",
+          "feature4": "24/7客户支持",
+          "feature5": "优先客服"
+        },
+        "cta": "立即购买"
+      },
+      "enterprise": {
+        "name": "企业套餐",
+        "price": "定制",
+        "period": "",
+        "features": {
+          "feature1": "无限设备",
+          "feature2": "专属服务器",
+          "feature3": "定制解决方案",
+          "feature4": "专属客户经理"
+        },
+        "cta": "联系我们"
+      }
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "解答您的疑问",
+    "items": {
+      "q1": {
+        "question": "什么是VPN？",
+        "answer": "VPN（虚拟专用网络）是一种加密的网络连接，可以保护您的在线隐私和安全。"
+      },
+      "q2": {
+        "question": "如何开始使用？",
+        "answer": "注册账号后，下载我们的应用程序，登录即可开始使用。"
+      },
+      "q3": {
+        "question": "支持哪些设备？",
+        "answer": "我们支持Windows、Mac、iOS、Android等主流平台。"
+      },
+      "q4": {
+        "question": "可以同时连接多少设备？",
+        "answer": "根据您选择的套餐，可以同时连接3-10个设备。"
+      },
+      "q5": {
+        "question": "有退款保证吗？",
+        "answer": "是的，我们提供7-30天的退款保证，具体取决于您选择的套餐。"
+      },
+      "q6": {
+        "question": "如何联系客服？",
+        "answer": "您可以通过邮件、在线聊天或工单系统联系我们的24/7客服团队。"
+      }
+    }
+  },
+  "footer": {
+    "description": "为全球用户提供安全、快速、私密的VPN服务",
+    "product": {
+      "title": "产品",
+      "features": "功能特性",
+      "pricing": "定价方案",
+      "download": "下载应用"
+    },
+    "company": {
+      "title": "公司",
+      "about": "关于我们",
+      "blog": "博客",
+      "careers": "招聘"
+    },
+    "support": {
+      "title": "支持",
+      "help": "帮助中心",
+      "contact": "联系我们",
+      "faq": "常见问题"
+    },
+    "legal": {
+      "title": "法律",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "cookies": "Cookie政策"
+    },
+    "copyright": "© 2024 Cyborg VPN. 保留所有权利。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "有任何问题或建议？我们随时恭候您的来信",
+    "form": {
+      "name": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "email": "邮箱",
+      "emailPlaceholder": "your@email.com",
+      "subject": "主题",
+      "subjectPlaceholder": "您想咨询什么？",
+      "message": "留言",
+      "messagePlaceholder": "请输入您的留言内容...",
+      "submit": "发送消息",
+      "sending": "发送中..."
+    },
+    "success": {
+      "title": "发送成功！",
+      "message": "感谢您的留言。我们会尽快回复您。",
+      "close": "确定"
+    },
+    "error": {
+      "title": "发送失败",
+      "message": "抱歉，发送消息时出现错误。请稍后重试。",
+      "close": "关闭"
+    }
+  }
+}
